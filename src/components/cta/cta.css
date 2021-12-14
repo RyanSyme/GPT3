@@ -6,23 +6,29 @@
     padding: 2rem;
     margin: 4rem;
     border-radius: 1rem;
-    background: var(--gradient-bar);
+    background: var(--gradient-bar)
+}
+
+.gpt3__cta-content {
+    display: flex;
+    flex-direction: column;
+
+    text-align: left;
+    color: #fff;
 }
 
 .gpt3__cta-content p {
     font-family: var(--font-family);
-    font-weight: 500;
     font-size: 12px;
     line-height: 30px;
-    color: #0E0E0E;
+    font-weight: 500;
 }
 
 .gpt3__cta-content h3 {
     font-family: var(--font-family);
-    font-weight: 800;
     font-size: 24px;
     line-height: 45px;
-    color: #000;
+    font-weight: 800;
 }
 
 .gpt3__cta-btn {
@@ -33,18 +39,18 @@
 }
 
 .gpt3__cta-btn button {
+    background: #000;
+    color: #fff;
     font-family: var(--font-family);
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
     line-height: 30px;
-    color: #FFF;
-    background: #000;
-    border-radius: 40px;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
     border: none;
     outline: none;
     cursor: pointer;
     min-width: 150px;
-    padding: 0.5rem 1rem;
 }
 
 @media screen and (max-width: 650px) {
@@ -57,8 +63,9 @@
     }
 }
 
-@media (max-width: 550px) {
+@media screen and (max-width: 550px) {
     .gpt3__cta {
+        flex-direction: column;
         margin: 4rem 2rem;
     }
 
