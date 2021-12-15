@@ -4,7 +4,7 @@ import './possibility.css'
 
 const Possibility = () => {
     return (
-        <div className='gpt3__possibility section__padding'>
+        <div className='gpt3__possibility section__padding' id='Possibility'>
             <div className='gpt3__possibility-image'>
                 <img src={possibilityImage} alt='vr-headset' />
             </div>
